@@ -1,0 +1,253 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+  .navigation-list ul,
+  .navigation-list a {
+    display: none;
+  }
+
+  .navigation-list .btn {
+    display: none;
+  }
+
+  .top-section {
+    flex-direction: column;
+    height: 400px;
+    padding-top: 100px;
+  }
+
+  .top-section-container1 {
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    justify-content: start;
+    gap: 0;
+  }
+
+  .top-section-container2 {
+    width: 100%;
+  }
+
+  .google,
+  .paypal,
+  .google-ads,
+  .atlassian,
+  .asana,
+  .weave,
+  .calendar {
+    transition: none;
+  }
+
+  .google:hover,
+  .paypal:hover,
+  .google-ads:hover,
+  .atlassian:hover,
+  .asana:hover,
+  .weave:hover,
+  .calendar:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .top-section-container2 h1,
+  .top-section-container2 p {
+    text-align: center;
+  }
+
+  .top-section-icons {
+    width: 100%;
+    height: 309px;
+  }
+
+  .asana {
+    top: 110px;
+    left: 520px;
+    height: 65px;
+    width: 65px;
+  }
+
+  .atlassian {
+    top: 115px;
+    left: 180px;
+    height: 65px;
+    width: 65px;
+  }
+
+  .google {
+    top: 110px;
+    right: 330px;
+    height: 45px;
+    width: 45px;
+  }
+
+  .paypal {
+    top: 250px;
+    right: 400px;
+    height: 65px;
+    width: 65px;
+  }
+
+  .weave {
+    top: 248px;
+    right: 130px;
+    height: 65px;
+    width: 65px;
+  }
+
+  .google-ads {
+    top: 380px;
+    right: 110px;
+  }
+
+  .middle-section {
+    margin-top: 350px;
+  }
+
+  .mid-section {
+    gap: 0;
+  }
+
+  .mid-section h2 {
+    margin: 0;
+  }
+
+  .mid-section p {
+    font-weight: bold;
+  }
+
+  .container {
+    width: 700px;
+  }
+
+  .line1 {
+    flex-direction: column;
+  }
+
+  .price-box {
+    width: 100%;
+    box-shadow: none;
+    align-items: center;
+  }
+
+  .seperator {
+    width: 85%;
+    left: 0;
+  }
+
+  .price-box p {
+    width: 85%;
+    align-items: center;
+    left: 0;
+  }
+
+  .price-box button {
+    left: 0;
+  }
+
+  .price-box p.no-credit-card {
+    left: 215px;
+  }
+
+  .Pricing-icons {
+    width: 100%;
+  }
+
+  .row1,
+  .row2 {
+    width: 100%;
+  }
+
+  .puzzle,
+  .diamond,
+  .cancel,
+  .moneyback {
+    width: 50%;
+  }
+
+  .hire-section {
+    margin-top: 400px;
+    flex-direction: column;
+  }
+
+  .hire-container {
+    flex-direction: row;
+    height: fit-content;
+    width: 100%;
+    gap: 20px;
+    padding: 0;
+  }
+
+  .hire-contents h2 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .hire-contents p {
+    margin-bottom: 0;
+  }
+
+  .hire-contents {
+    height: 240px;
+    width: 400px;
+  }
+
+  .person {
+    margin: 0;
+  }
+
+  .form {
+    width: 75%;
+  }
+
+  .form h2 {
+    margin: 0;
+  }
+
+  .checkbox-group label {
+    color: rgb(181, 181, 181);
+  }
+
+  .privacy-links {
+    display: block;
+    margin: 0;
+  }
+
+  .policy {
+    display: none;
+  }
+
+  .privacy-links a {
+    text-decoration: dotted underline;
+  }
+
+  footer {
+    height: fit-content;
+  }
+
+  .footer-logo {
+    gap: 0;
+    height: fit-content;
+    width: 100%;
+  }
+
+  .footer-logo p {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .footer-logo img {
+    margin-bottom: 15px;
+  }
+
+  .footer-frames {
+    height: fit-content;
+  }
+
+  .footer-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-column {
+    height: fit-content;
+    gap: 10px;
+  }
+}

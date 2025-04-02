@@ -1,0 +1,406 @@
+@media (min-width: 360px) and (max-width: 767px) {
+  body {
+    width: 360px;
+  }
+
+  .navigation-list ul,
+  .navigation-list a {
+    display: none;
+  }
+
+  header {
+    width: 378px;
+  }
+
+  .top-section {
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .navigation-list .btn {
+    display: none;
+  }
+
+  .top-section-container1 {
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    justify-content: start;
+    gap: 30px;
+  }
+
+  .top-section-container2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .top-section-container2 h1 {
+    font-size: 33px;
+  }
+  .top-section-container2 p {
+    margin: 0;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+
+  .top-section-icons {
+    width: 100%;
+  }
+
+  .asana {
+    top: 80px;
+    left: 275px;
+    height: 80px;
+    width: 80px;
+  }
+
+  .atlassian {
+    top: 80px;
+    left: 15px;
+    height: 80px;
+    width: 80px;
+  }
+
+  .google {
+    top: -30px;
+    right: 110px;
+    height: 60px;
+    width: 60px;
+  }
+
+  .weave {
+    top: -10px;
+    left: 200px;
+    height: 80px;
+    width: 80px;
+  }
+
+  .paypal {
+    top: 90px;
+    right: 170px;
+    height: 80px;
+    width: 80px;
+  }
+
+  .google-ads {
+    top: 200px;
+    left: 120px;
+    height: 60px;
+    width: 60px;
+  }
+
+  .calendar {
+    top: 320px;
+    left: 80px;
+    height: 80px;
+    width: 80px;
+  }
+
+  .middle-section {
+    padding: 0 40px 0 40px;
+    margin-top: 190px;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .mid-section {
+    width: 100%;
+    gap: 18px;
+  }
+  .mid-section p,
+  .mid-section h2 {
+    margin: 0;
+  }
+
+  .mid-section p {
+    word-spacing: 2px;
+    font-size: 20px;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 40px;
+    width: 100%;
+    align-items: start;
+    gap: 15px;
+  }
+
+  .step {
+    flex-direction: row;
+    width: auto;
+    gap: 30px;
+  }
+
+  .circle {
+    width: 70px;
+    height: 70px;
+  }
+
+  .circle::after {
+    width: 8px;
+    height: 8px;
+  }
+
+  .text {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .bottom-section {
+    padding: 40px;
+    height: fit-content;
+  }
+
+  .Pricing p {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .line1 {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+
+  .price-box {
+    box-shadow: none;
+    width: 100%;
+  }
+
+  .price-box h1 {
+    width: 270px;
+    text-align: center;
+    top: 40px;
+  }
+
+  .seperator {
+    top: 50px;
+  }
+
+  .price-box p {
+    top: 45px;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  .price-box button {
+    top: 45px;
+    left: 112px;
+  }
+
+  p.no-credit-card {
+    left: 70px;
+  }
+
+  .Pricing-icons {
+    width: 100%;
+    height: 600px;
+  }
+
+  .hire-section {
+    width: 100%;
+  }
+
+  .Pricing-icons {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .row1,
+  .row2 {
+    flex-direction: column;
+    height: fit-content;
+    gap: 30px;
+  }
+
+  .puzzle,
+  .diamond,
+  .cancel,
+  .moneyback {
+    width: 100%;
+    height: fit-content;
+    gap: 0;
+    padding: 0;
+  }
+
+  .puzzle h2,
+  .diamond h2,
+  .cancel h2,
+  .moneyback h2 {
+    font-size: 20px;
+  }
+
+  .puzzle p,
+  .diamond p,
+  .cancel p,
+  .moneyback p {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .hire-section {
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    padding: 40px;
+  }
+
+  .hire-container {
+    width: 100%;
+    height: fit-content;
+    padding: 0;
+    gap: 0;
+  }
+
+  .hire-contents {
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+  }
+
+  .hire-contents p,
+  .hire-contents h2 {
+    margin: 0;
+  }
+
+  .hire-contents p {
+    padding-bottom: 40px;
+    font-size: 18px;
+  }
+
+  p.quote {
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+  }
+
+  .person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .person img {
+    margin-top: 30px;
+  }
+
+  .form {
+    width: 90%;
+    height: fit-content;
+    margin-top: 30px;
+  }
+
+  .form h2 {
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  form {
+    flex-direction: column;
+  }
+
+  .form-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .form-group input {
+    width: 100%;
+  }
+
+  .form-group-budget {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .form-group-budget select {
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+  }
+
+  .form-group-message textarea {
+    font-size: 17px;
+  }
+
+  .checkbox-group input {
+    height: 60px;
+    width: 60px;
+  }
+
+  #marketing {
+    margin: 0;
+    display: flex;
+  }
+
+  .checkbox-group label {
+    font-size: 19px;
+    color: gray;
+    line-height: 30px;
+  }
+
+  .policy {
+    display: none;
+  }
+
+  .privacy-links a {
+    text-decoration: underline dashed #c7c7c7;
+    text-underline-offset: 8px;
+    width: 76%;
+  }
+
+  .privacy-links {
+    margin: 0;
+    text-align: left;
+  }
+
+  form .button {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+    padding: 40px;
+    height: fit-content;
+  }
+
+  .footer-section {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .footer-logo {
+    height: fit-content;
+    gap: 0;
+    width: 100%;
+    align-items: center;
+    padding-top: 40px;
+  }
+
+  .footer-logo p {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .footer-frames {
+    height: fit-content;
+  }
+
+  .footer-columns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-column {
+    height: fit-content;
+    align-items: center;
+  }
+}
