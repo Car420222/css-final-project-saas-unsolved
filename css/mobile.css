@@ -129,7 +129,33 @@
   .price-box {
     position: relative;
     width: 325px;
-    left: 17px;
+    left: 21px;
+  }
+
+  .seperator {
+    top: 127px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .price-box h1 {
+    position: unset;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .price-box p {
+    position: unset;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .price-box button {
+    top: 0;
+    left: 29%;
   }
 
   .Pricing-icons {
@@ -270,6 +296,8 @@
 
   footer {
     height: fit-content;
+    padding: 0;
+    margin-top: 80px;
   }
 
   .footer-seperator {
