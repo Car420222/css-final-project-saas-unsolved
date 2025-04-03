@@ -9,9 +9,12 @@
   }
 
   .top-section {
+    height: fit-content;
+    padding-top: 40px;
+  }
+
+  .top {
     flex-direction: column;
-    height: 400px;
-    padding-top: 100px;
   }
 
   .top-section-container1 {
@@ -19,7 +22,7 @@
     align-items: center;
     height: 100%;
     justify-content: start;
-    gap: 0;
+    gap: 18px;
   }
 
   .top-section-container2 {
@@ -54,47 +57,53 @@
 
   .top-section-icons {
     width: 100%;
-    height: 309px;
+    height: 200px;
   }
 
   .asana {
-    top: 110px;
+    top: 82px;
     left: 520px;
     height: 65px;
     width: 65px;
   }
 
   .atlassian {
-    top: 115px;
+    top: 80px;
     left: 180px;
     height: 65px;
     width: 65px;
   }
 
   .google {
-    top: 110px;
-    right: 330px;
+    top: 80px;
+    right: 248px;
     height: 45px;
     width: 45px;
   }
 
   .paypal {
-    top: 250px;
-    right: 400px;
+    top: 220px;
+    right: 320px;
     height: 65px;
     width: 65px;
   }
 
   .weave {
-    top: 248px;
-    right: 130px;
+    top: 216px;
+    left: -90px;
+    height: 65px;
+    width: 65px;
+  }
+
+  .calendar {
+    left: 340px;
     height: 65px;
     width: 65px;
   }
 
   .google-ads {
-    top: 380px;
-    right: 110px;
+    top: 320px;
+    right: 70px;
   }
 
   .middle-section {

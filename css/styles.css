@@ -10,15 +10,21 @@ body {
 /* HEADER */
 header {
   display: flex;
-  justify-content: space-between;
   padding-top: 10px;
   padding-right: 30px;
   padding-bottom: 10px;
   padding-left: 30px;
-  align-items: center;
   background-color: #f3f3f3;
   height: 70px;
-  width: -webkit-fill-available;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 1024px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
 }
 /* LOGO */
 .logo-container {
@@ -61,7 +67,6 @@ header {
 
 /* BUTTON */
 .btn {
-  width: 102px;
   height: 45px;
   padding: 15px 25px;
   gap: 20px;
@@ -80,10 +85,16 @@ header {
 /* MAIN */
 .top-section {
   display: flex;
-  height: 532px;
+  height: 400px;
   padding-top: 50px;
   padding-right: 40px;
   padding-left: 40px;
+}
+
+.top {
+  display: flex;
+  width: 1024px;
+  margin: 0 auto;
 }
 
 .top-section-container1 {
@@ -167,54 +178,56 @@ header {
 }
 
 .google {
-  top: 0px;
-  right: 380px;
-  width: 60px;
-  height: 60px;
+  top: -25px;
+  right: 308px;
+  width: 45px;
+  height: 45px;
 }
 
 .paypal {
-  top: 280px;
-  right: 490px;
-  width: 80px;
+  top: 190px;
+  right: 410px;
+  width: 70px;
+  height: 70px;
 }
 
 .google-ads {
-  top: 400px;
+  top: 300px;
   bottom: 40px;
   right: 200px;
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
 }
 
 .atlassian {
-  top: 10px;
-  left: 110px;
-  height: 80px;
-  width: 80px;
+  top: 0;
+  left: 107px;
+  height: 70px;
+  width: 70px;
 }
 
 .asana {
-  top: 10px;
-  left: 500px;
-  height: 80px;
-  width: 80px;
+  top: 0;
+  left: 400px;
+  height: 70px;
+  width: 70px;
 }
 
 .weave {
-  top: 270px;
-  right: 300px;
-  height: 80px;
-  width: 80px;
+  top: 97px;
+  right: 0;
+  left: 293px;
+  height: 70px;
+  width: 70px;
 }
 
 .calendar {
-  top: 420px;
-  left: 300px;
+  top: 350px;
+  left: 190px;
   bottom: 20px;
   right: 60px;
-  height: 80px;
-  width: 80px;
+  height: 70px;
+  width: 70px;
 }
 
 .middle-section {
@@ -223,6 +236,7 @@ header {
   align-items: center;
   gap: 50px;
   height: 354px;
+  margin-top: 80px;
 }
 
 .mid-section {
@@ -466,6 +480,12 @@ p.no-credit-card {
   padding: 30px;
   justify-content: center;
   align-items: center;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.hire-background {
+  background-color: #20335b;
 }
 
 .hire-contents .hire-sepperator {
@@ -490,7 +510,7 @@ p.no-credit-card {
 .hire-contents {
   display: flex;
   flex-direction: column;
-  width: 450px;
+  width: 390px;
   height: 170px;
 }
 
@@ -667,10 +687,13 @@ button#submit {
 footer {
   height: 246px;
   gap: 40px;
-  padding-top: 40px;
-  padding-right: 30px;
-  padding-bottom: 40px;
-  padding-left: 30px;
+  padding: 40px 30px;
+}
+
+.footer-seperator {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .footer-section {

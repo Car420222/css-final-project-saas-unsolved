@@ -11,52 +11,60 @@
   </head>
   <body>
     <header>
-      <div class="logo-container">
-        <img src="./assets/logos/logo-front.svg" alt="" />
+      <div class="header">
+        <div class="logo-container">
+          <img src="./assets/logos/logo-front.svg" alt="" />
+        </div>
+        <nav class="navigation-list">
+          <button class="trigram"><i class="fa fa-bars"></i></button>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Learn</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Hire Us</a></li>
+          </ul>
+          <button class="btn">Buy Now</button>
+        </nav>
       </div>
-      <nav class="navigation-list">
-        <button class="trigram"><i class="fa fa-bars"></i></button>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Learn</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Hire Us</a></li>
-        </ul>
-        <button class="btn">Buy Now</button>
-      </nav>
     </header>
     <main>
       <section
         class="top-section"
         style="background-image: url('./assets/bg/background-top.svg')"
       >
-        <div class="top-section-container1">
-          <div class="top-section-container2">
-            <h1>Empowering teams with the freedom</h1>
-            <p>Own the ultimate power of the web development</p>
+        <div class="top">
+          <div class="top-section-container1">
+            <div class="top-section-container2">
+              <h1>Empowering teams with the freedom</h1>
+              <p>Own the ultimate power of the web development</p>
+            </div>
+            <div class="top-section-button">
+              <button class="btn">Play Video</button>
+              <a href="#"><p>Learn More</p></a>
+            </div>
           </div>
-          <div class="top-section-button">
-            <button class="btn">Play Video</button>
-            <a href="#"><p>Learn More</p></a>
+          <div class="top-section-icons">
+            <img class="logo asana" src="./assets/logos/asana.png" alt="" />
+            <img
+              class="logo atlassian"
+              src="./assets/logos/atlassian.png"
+              alt=""
+            />
+            <img
+              class="logo calendar"
+              src="./assets/logos/calendar.png"
+              alt=""
+            />
+            <img
+              class="logo google-ads"
+              src="./assets/logos/google-ads.png"
+              alt=""
+            />
+            <img class="logo google" src="./assets/logos/google.png" alt="" />
+            <img class="logo paypal" src="./assets/logos/paypal.jpg" alt="" />
+            <img class="logo weave" src="./assets/logos/weave.png" alt="" />
           </div>
-        </div>
-        <div class="top-section-icons">
-          <img class="logo asana" src="./assets/logos/asana.png" alt="" />
-          <img
-            class="logo atlassian"
-            src="./assets/logos/atlassian.png"
-            alt=""
-          />
-          <img class="logo calendar" src="./assets/logos/calendar.png" alt="" />
-          <img
-            class="logo google-ads"
-            src="./assets/logos/google-ads.png"
-            alt=""
-          />
-          <img class="logo google" src="./assets/logos/google.png" alt="" />
-          <img class="logo paypal" src="./assets/logos/paypal.jpg" alt="" />
-          <img class="logo weave" src="./assets/logos/weave.png" alt="" />
         </div>
       </section>
       <section class="middle-section">
@@ -139,122 +147,126 @@
           </div>
         </div>
       </section>
-      <section class="hire-section">
-        <div class="hire-container">
-          <div class="hire-contents">
-            <h2>Hire Us</h2>
-            <p>Whatever your goal - we will get you there</p>
-            <div class="hire-sepperator"></div>
-            <p class="quote">
-              “ I love front! I love the ease of use, I love the fact that I
-              have total creative freedom...”
-            </p>
+      <div class="hire-background">
+        <section class="hire-section">
+          <div class="hire-container">
+            <div class="hire-contents">
+              <h2>Hire Us</h2>
+              <p>Whatever your goal - we will get you there</p>
+              <div class="hire-sepperator"></div>
+              <p class="quote">
+                “ I love front! I love the ease of use, I love the fact that I
+                have total creative freedom...”
+              </p>
+            </div>
+            <div class="person">
+              <h3>Charlotte Moore</h3>
+              <p>Head of Commercial, Slack</p>
+              <img src="./assets/images/man_one.jpg" alt="" />
+            </div>
           </div>
-          <div class="person">
-            <h3>Charlotte Moore</h3>
-            <p>Head of Commercial, Slack</p>
-            <img src="./assets/images/man_one.jpg" alt="" />
+          <div class="form">
+            <h2>Fill out the form and we'll be in touch as soon as possible</h2>
+            <form>
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="first-name"
+                  placeholder="First name"
+                  required
+                />
+                <input
+                  type="text"
+                  name="last_name"
+                  placeholder="Last name"
+                  required
+                />
+              </div>
+              <div class="form-group-name">
+                <input type="email" name="email" placeholder="Email" required />
+              </div>
+              <div class="form-group-budget">
+                <select name="budget">
+                  <option value="" disabled selected>Budget</option>
+                  <option value="low">$0 - $1,000</option>
+                  <option value="medium">$1,000 - $5,000</option>
+                  <option value="high">$5,000+</option>
+                </select>
+                <select name="country">
+                  <option value="" disabled selected>Country</option>
+                  <option value="us">United States</option>
+                  <option value="uk">United Kingdom</option>
+                  <option value="ca">Canada</option>
+                </select>
+              </div>
+              <div class="form-group-message">
+                <textarea
+                  name="message"
+                  placeholder="Tell us more about your project, needs, and timeline, please..."
+                  required
+                ></textarea>
+              </div>
+              <div class="checkbox-group">
+                <input type="checkbox" id="marketing" name="marketing" />
+                <label for="marketing"
+                  >Yes, I'd like to receive occasional marketing emails. I have
+                  the right to opt out at any time.</label
+                >
+              </div>
+              <div class="privacy-links">
+                <a href="#">View privacy policy</a>
+                <a class="policy" href="#">View privacy policy</a>
+              </div>
+              <div class="button">
+                <button id="submit" type="submit" class="submit-btn">
+                  Submit Form
+                </button>
+              </div>
+            </form>
           </div>
-        </div>
-        <div class="form">
-          <h2>Fill out the form and we'll be in touch as soon as possible</h2>
-          <form>
-            <div class="form-group">
-              <input
-                type="text"
-                name="first-name"
-                placeholder="First name"
-                required
-              />
-              <input
-                type="text"
-                name="last_name"
-                placeholder="Last name"
-                required
-              />
-            </div>
-            <div class="form-group-name">
-              <input type="email" name="email" placeholder="Email" required />
-            </div>
-            <div class="form-group-budget">
-              <select name="budget">
-                <option value="" disabled selected>Budget</option>
-                <option value="low">$0 - $1,000</option>
-                <option value="medium">$1,000 - $5,000</option>
-                <option value="high">$5,000+</option>
-              </select>
-              <select name="country">
-                <option value="" disabled selected>Country</option>
-                <option value="us">United States</option>
-                <option value="uk">United Kingdom</option>
-                <option value="ca">Canada</option>
-              </select>
-            </div>
-            <div class="form-group-message">
-              <textarea
-                name="message"
-                placeholder="Tell us more about your project, needs, and timeline, please..."
-                required
-              ></textarea>
-            </div>
-            <div class="checkbox-group">
-              <input type="checkbox" id="marketing" name="marketing" />
-              <label for="marketing"
-                >Yes, I'd like to receive occasional marketing emails. I have
-                the right to opt out at any time.</label
-              >
-            </div>
-            <div class="privacy-links">
-              <a href="#">View privacy policy</a>
-              <a class="policy" href="#">View privacy policy</a>
-            </div>
-            <div class="button">
-              <button id="submit" type="submit" class="submit-btn">
-                Submit Form
-              </button>
-            </div>
-          </form>
-        </div>
-      </section>
+        </section>
+      </div>
       <footer class="footer">
-        <div class="footer-section">
-          <div class="footer-logo">
-            <img src="./assets/logos/logo-front.svg" alt="Front Logo" />
-            <p>📍 153 Williamson Plaza, Maggieberg</p>
-            <p>📞 <a href="tel:+10621099222">+1 (062) 109-9222</a></p>
-          </div>
-          <div class="footer-frames">
-            <div class="footer-columns">
-              <div class="footer-column">
-                <h3>Company</h3>
-                <a href="#">About</a>
-                <a href="#">Career</a>
-                <a href="#">Blog</a>
-                <a href="#">Customers</a>
-                <a href="#">Hire us</a>
-              </div>
+        <div class="footer-seperator">
+          <div class="footer-section">
+            <div class="footer-logo">
+              <img src="./assets/logos/logo-front.svg" alt="Front Logo" />
+              <p>📍 153 Williamson Plaza, Maggieberg</p>
+              <p>📞 <a href="tel:+10621099222">+1 (062) 109-9222</a></p>
+            </div>
+            <div class="footer-frames">
+              <div class="footer-columns">
+                <div class="footer-column">
+                  <h3>Company</h3>
+                  <a href="#">About</a>
+                  <a href="#">Career</a>
+                  <a href="#">Blog</a>
+                  <a href="#">Customers</a>
+                  <a href="#">Hire us</a>
+                </div>
 
-              <div class="footer-column">
-                <h3>Features</h3>
-                <a href="#">Press</a>
-                <a href="#">Release notes</a>
-                <a href="#">Integrations</a>
-                <a href="#">Pricing</a>
-              </div>
+                <div class="footer-column">
+                  <h3>Features</h3>
+                  <a href="#">Press</a>
+                  <a href="#">Release notes</a>
+                  <a href="#">Integrations</a>
+                  <a href="#">Pricing</a>
+                </div>
 
-              <div class="footer-column">
-                <h3>Documentation</h3>
-                <a href="#">Support</a>
-                <a href="#">Docs</a>
-                <a href="#">Status</a>
-                <a href="#">API Reference</a>
-                <a href="#">Tech Requirements</a>
-              </div>
+                <div class="footer-column">
+                  <h3>Documentation</h3>
+                  <a href="#">Support</a>
+                  <a href="#">Docs</a>
+                  <a href="#">Status</a>
+                  <a href="#">API Reference</a>
+                  <a href="#">Tech Requirements</a>
+                </div>
 
-              <div class="footer-column">
-                <h3>Resources</h3>
-                <a href="#"><span class="icon">ℹ️</span> Help</a>
-                <a href="#"><span class="icon">🔑</span> Your Account</a>
+                <div class="footer-column">
+                  <h3>Resources</h3>
+                  <a href="#"><span class="icon">ℹ️</span> Help</a>
+                  <a href="#"><span class="icon">🔑</span> Your Account</a>
+                </div>
               </div>
             </div>
           </div>

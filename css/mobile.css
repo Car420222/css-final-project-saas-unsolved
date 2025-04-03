@@ -4,44 +4,33 @@
   }
 
   .navigation-list ul,
-  .navigation-list a {
-    display: none;
-  }
-
-  header {
-    width: 378px;
-  }
-
-  .top-section {
-    flex-direction: column;
-    width: 100%;
-    height: fit-content;
-  }
-
   .navigation-list .btn {
     display: none;
   }
 
-  .top-section-container1 {
-    width: 100%;
-    align-items: center;
-    height: 100%;
-    justify-content: start;
-    gap: 30px;
+  .top-section {
+    padding: 0;
+    height: 650px;
   }
 
-  .top-section-container2 {
+  .top {
+    flex-direction: column;
+    height: fit-content;
+    margin-top: 50px;
+  }
+
+  .top-section-container1 {
     width: 100%;
     text-align: center;
+    align-items: center;
   }
 
   .top-section-container2 h1 {
-    font-size: 33px;
+    font-size: 30px;
   }
+
   .top-section-container2 p {
-    margin: 0;
-    margin-top: 15px;
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .top-section-icons {
@@ -49,162 +38,98 @@
   }
 
   .asana {
-    top: 80px;
-    left: 275px;
-    height: 80px;
-    width: 80px;
+    top: 120px;
+    left: 260px;
   }
 
   .atlassian {
-    top: 80px;
-    left: 15px;
-    height: 80px;
-    width: 80px;
+    top: 120px;
+    left: 30px;
   }
 
   .google {
-    top: -30px;
-    right: 110px;
-    height: 60px;
-    width: 60px;
+    top: 5px;
+    left: 10px;
   }
 
   .weave {
-    top: -10px;
-    left: 200px;
-    height: 80px;
-    width: 80px;
+    top: 130px;
+    left: 28px;
   }
 
   .paypal {
-    top: 90px;
-    right: 170px;
-    height: 80px;
-    width: 80px;
-  }
-
-  .google-ads {
-    top: 200px;
-    left: 120px;
-    height: 60px;
-    width: 60px;
+    top: 135px;
+    right: 50px;
   }
 
   .calendar {
-    top: 320px;
-    left: 80px;
-    height: 80px;
-    width: 80px;
+    top: 335px;
+    left: 70px;
+  }
+
+  .google-ads {
+    top: 310px;
+    right: 160px;
   }
 
   .middle-section {
-    padding: 0 40px 0 40px;
-    margin-top: 190px;
-    width: 100%;
     height: fit-content;
+    margin-bottom: 70px;
+  }
+
+  .mid-section p {
+    width: fit-content;
+    margin: 0;
+    margin-left: 9px;
+    margin-right: 9px;
+    font-size: 20px;
+    line-height: 25px;
   }
 
   .mid-section {
     width: 100%;
-    gap: 18px;
-  }
-  .mid-section p,
-  .mid-section h2 {
-    margin: 0;
-  }
-
-  .mid-section p {
-    word-spacing: 2px;
-    font-size: 20px;
+    gap: 0;
+    height: fit-content;
   }
 
   .container {
     flex-direction: column;
-    padding: 40px;
-    width: 100%;
-    align-items: start;
-    gap: 15px;
-  }
-
-  .step {
-    flex-direction: row;
-    width: auto;
-    gap: 30px;
-  }
-
-  .circle {
-    width: 70px;
-    height: 70px;
-  }
-
-  .circle::after {
-    width: 8px;
-    height: 8px;
-  }
-
-  .text {
-    font-size: 22px;
-    font-weight: 500;
+    width: 80%;
   }
 
   .line {
     display: none;
   }
 
+  .step {
+    flex-direction: row;
+    width: 100%;
+    gap: 35px;
+  }
+
+  .text {
+    font-weight: bold;
+  }
+
   .bottom-section {
-    padding: 40px;
+    width: 100%;
     height: fit-content;
   }
 
-  .Pricing p {
+  .Pricing {
     width: 100%;
-    text-align: center;
-    font-size: 18px;
   }
 
   .line1 {
-    flex-direction: column;
     width: 100%;
+    flex-direction: column;
     padding: 0;
   }
 
   .price-box {
-    box-shadow: none;
-    width: 100%;
-  }
-
-  .price-box h1 {
-    width: 270px;
-    text-align: center;
-    top: 40px;
-  }
-
-  .seperator {
-    top: 50px;
-  }
-
-  .price-box p {
-    top: 45px;
-    font-size: 18px;
-    letter-spacing: 1px;
-  }
-
-  .price-box button {
-    top: 45px;
-    left: 112px;
-  }
-
-  p.no-credit-card {
-    left: 70px;
-  }
-
-  .Pricing-icons {
-    width: 100%;
-    height: 600px;
-  }
-
-  .hire-section {
-    width: 100%;
+    position: relative;
+    width: 325px;
+    left: 17px;
   }
 
   .Pricing-icons {
@@ -216,94 +141,75 @@
   .row2 {
     flex-direction: column;
     height: fit-content;
-    gap: 30px;
+    width: 100%;
   }
 
   .puzzle,
   .diamond,
   .cancel,
   .moneyback {
-    width: 100%;
-    height: fit-content;
     gap: 0;
-    padding: 0;
+    height: inherit;
   }
 
-  .puzzle h2,
-  .diamond h2,
-  .cancel h2,
-  .moneyback h2 {
-    font-size: 20px;
-  }
-
-  .puzzle p,
-  .diamond p,
-  .cancel p,
-  .moneyback p {
-    font-size: 18px;
+  .pricing-icons p {
     margin: 0;
+    width: 310px;
+  }
+
+  .hire-background {
+    width: 100%;
   }
 
   .hire-section {
     flex-direction: column;
-    height: fit-content;
-    width: 100%;
-    padding: 40px;
   }
 
   .hire-container {
-    width: 100%;
-    height: fit-content;
     padding: 0;
-    gap: 0;
+    height: fit-content;
+    width: 100%;
   }
 
   .hire-contents {
     width: 100%;
-    height: fit-content;
     align-items: center;
   }
 
-  .hire-contents p,
-  .hire-contents h2 {
+  .hire-contents h2,
+  .hire-contents p {
     margin: 0;
   }
 
-  .hire-contents p {
-    padding-bottom: 40px;
-    font-size: 18px;
-  }
-
-  p.quote {
-    width: 100%;
+  .quote {
     text-align: center;
-    font-size: 19px;
   }
 
   .person {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
+    margin-top: 20px;
+    justify-items: center;
   }
 
   .person img {
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .person h3 {
+    margin-bottom: 10px;
   }
 
   .form {
-    width: 90%;
+    width: 95%;
+    padding: 20px;
     height: fit-content;
-    margin-top: 30px;
   }
 
   .form h2 {
-    font-size: 20px;
-    line-height: 33px;
-  }
-
-  form {
-    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    font-size: 19px;
+    line-height: 27px;
   }
 
   .form-group {
@@ -316,91 +222,91 @@
   }
 
   .form-group-budget {
+    width: 100%;
     flex-direction: column;
-    height: fit-content;
+    height: auto;
   }
+
   .form-group-budget select {
     width: 100%;
     height: 40px;
     font-weight: bold;
   }
 
-  .form-group-message textarea {
-    font-size: 17px;
-  }
-
   .checkbox-group input {
-    height: 60px;
-    width: 60px;
-  }
-
-  #marketing {
-    margin: 0;
-    display: flex;
+    position: relative;
+    top: -2px;
+    height: 30px;
+    width: 30px;
   }
 
   .checkbox-group label {
-    font-size: 19px;
-    color: gray;
-    line-height: 30px;
+    width: 100%;
+    font-size: 15px;
+    line-height: 22px;
+    color: #677788;
   }
 
   .policy {
     display: none;
   }
 
-  .privacy-links a {
-    text-decoration: underline dashed #c7c7c7;
-    text-underline-offset: 8px;
-    width: 76%;
-  }
-
   .privacy-links {
     margin: 0;
-    text-align: left;
+  }
+
+  .privacy-links a {
+    width: 100%;
+    margin: 0;
+    text-decoration: underline dashed;
+    text-underline-offset: 0.2em;
+    position: relative;
+    left: 47px;
   }
 
   form .button {
     margin-top: 20px;
-    width: 100%;
   }
 
   footer {
-    width: 100%;
-    padding: 40px;
     height: fit-content;
+  }
+
+  .footer-seperator {
+    width: 100%;
   }
 
   .footer-section {
+    width: 100%;
     flex-direction: column;
-    gap: 0;
+    gap: 20px;
   }
 
   .footer-logo {
-    height: fit-content;
-    gap: 0;
     width: 100%;
+    height: fit-content;
     align-items: center;
-    padding-top: 40px;
-  }
-
-  .footer-logo p {
-    font-size: 20px;
-    margin-bottom: 0;
+    gap: 0;
   }
 
   .footer-frames {
+    width: 100%;
     height: fit-content;
   }
 
   .footer-columns {
-    display: flex;
+    width: 100%;
     flex-direction: column;
-    gap: 10px;
+    height: fit-content;
+    text-align: center;
   }
 
   .footer-column {
     height: fit-content;
-    align-items: center;
+  }
+
+  .footer-logo p {
+    margin: 0;
+    line-height: 40px;
   }
 }
